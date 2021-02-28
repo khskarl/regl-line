@@ -1,9 +1,7 @@
 import { mat4 } from 'gl-matrix';
 
-const glsl = require("glslify"); 
-
-const FRAG_SHADER = glsl.file("./line.fs"); 
-const VERT_SHADER = glsl.file("./line.vs"); 
+import FRAG_SHADER from './line.fs';
+import VERT_SHADER from './line.vs';
 
 const { push, splice } = Array.prototype;
 
