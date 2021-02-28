@@ -1,6 +1,5 @@
 // Vertex shader from https://mattdesl.svbtle.com/drawing-lines-is-hard
 // The MIT License (MIT) Copyright (c) 2015 Matt DesLauriers
-const VERTEX_SHADER = `
 uniform mat4 projectionViewModel;
 uniform float aspectRatio;
 
@@ -71,6 +70,5 @@ void main() {
 
   color = texture2D(colorTex, colorTexIndex);
   color.a = useColorOpacity * color.a + useOpacity * opacity;
-}`;
+}
 
-export default VERTEX_SHADER;
