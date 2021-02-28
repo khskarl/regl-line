@@ -1,7 +1,7 @@
 import { mat4 } from 'gl-matrix';
 
-import FRAG_SHADER from './line.fs';
-import VERT_SHADER from './line.vs';
+import FRAG_SHADER from './line_fs.js';
+import VERT_SHADER from './line_vs.js';
 
 const { push, splice } = Array.prototype;
 
