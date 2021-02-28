@@ -16,8 +16,8 @@
   "jsdelivr": "dist/regl-line.min.js",
   "files": [
     "src/index.js",
-    "src/line.fs",
-    "src/line.vs",
+    "src/line_fs.js",
+    "src/line_vs.js",
     "dist/regl-line.js",
     "dist/regl-line.min.js"
   ],
